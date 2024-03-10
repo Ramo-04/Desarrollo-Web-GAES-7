@@ -25,9 +25,6 @@ public class Produccion {
     @Column(name = "trabajadores_disponibles")
     private Integer trabajadores_disponibles;
 
-    @Column(name = "tipo_servicio")
-    private String tipo_servicio;
-
     @Column(name = "elementos_stock")
     private Integer elementos_stock;
 

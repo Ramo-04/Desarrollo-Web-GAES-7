@@ -18,7 +18,7 @@ public class Rol {
     @Id
     @Column(name = "id_rol")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long Id;
 
     @ManyToOne
     @JoinColumn(name = "id_empleado")

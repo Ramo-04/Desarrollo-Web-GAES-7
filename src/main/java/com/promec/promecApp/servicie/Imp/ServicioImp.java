@@ -1,4 +1,4 @@
-package com.promec.promecApp.servicie.imp;
+package com.promec.promecApp.servicie.Imp;
 
 import com.promec.promecApp.entities.Servicio;
 import com.promec.promecApp.entities.Solicitud;
@@ -12,7 +12,7 @@ public class ServicioImp implements ServicioRepository {
 
 
         @Autowired
-        private SolicitudRepository solicitudRepository;
+        private ServicioRepository servicioRepository;
 
         @Override
         public List<Servicio> findAll() throws Exception {

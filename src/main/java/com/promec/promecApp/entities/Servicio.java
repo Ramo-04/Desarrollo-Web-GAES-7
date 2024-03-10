@@ -26,6 +26,9 @@ public class Servicio {
     @Column(name = "calidad_servicio")
     private String calidadServicio;
 
+    @Column(name = "tipo_servicio")
+    private String tipo_servicio;
+
     @ManyToOne
     @JoinColumn(name = "id_empleado")
     private Empleado empleado;

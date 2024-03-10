@@ -1,4 +1,4 @@
-package com.promec.promecApp.servicie.imp;
+package com.promec.promecApp.servicie.Imp;
 
 import com.promec.promecApp.entities.Solicitud;
 import com.promec.promecApp.repository.SolicitudRepository;

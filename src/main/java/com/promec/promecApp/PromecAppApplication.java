@@ -9,5 +9,4 @@ public class PromecAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PromecAppApplication.class, args);
 	}
-
 }
